@@ -111,7 +111,7 @@ body {
     display: flex;
     font-weight: 700;
     background: linear-gradient(90deg, #F32525 0%, #FF5100 100%);
-    font-size: 26px;
+    font-size: 6vw;
     padding: 35px 60px;
     border-radius: 20px;
     color: #FFFFFF;
