@@ -1,0 +1,142 @@
+html,
+body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+body {
+    font-family: "Onest", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.hero {
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hero__items {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    margin-top: 3vw;
+}
+
+.hero__name {
+    color: #797979;
+}
+
+.hero__text {
+    text-align: center;
+    margin-top: 8vw;
+}
+
+.hero__title {
+    margin-top: 4vw;
+    text-align: center;
+    font-size: 8vw;
+    line-height: 100%;
+    width: 110%;
+}
+
+
+.hero__video {
+    border: 1px solid #FF590045;
+    width: 328px;
+    height: 212px;
+    box-sizing: border-box;
+    border-radius: 14px;
+}
+
+.hero__video img {
+    display: block;
+    position: absolute;
+    top: 16%;
+    left: 0;
+    z-index: -1;
+}
+
+
+.hero__video iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 14px;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.item {
+    border-radius: 25.08px;
+    border: 1px solid #B1B1B1;
+    padding: 10px 12px;
+    color: #979797;
+    font-size: 2vw;
+}
+
+.item span {
+    color: black;
+}
+
+.red {
+    color: #EE2222;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.button {
+    display: flex;
+    font-weight: 700;
+    background: linear-gradient(90deg, #F32525 0%, #FF5100 100%);
+    font-size: 6vw;
+    padding: 35px 60px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8vw;
+    border: 1px solid #FF8484;
+    box-shadow: 0 17px 74px #FF5900;
+}
+
+.background {
+    position: absolute;
+    bottom: -1px;
+}
+
+.orange {
+    color: #FF5900;
+}
+
+.green{
+    color: #6FED00;
+}
+
+.support__logo {
+    margin-top: 12vw;
+    width: 60.51px;
+    height: 22.56px;
+}
